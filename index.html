@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Personal Profile</h1>
+    </header>
+    <main>
+        <section id="profile">
+            <img src="profile.jpg" alt="Profile Image">
+            <h2>Bio</h2>
+            <p>This is a brief bio about myself.</p>
+            <button id="readMoreButton">Read More</button>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1</li>
+                <li>Project 2</li>
+            </ul>
+        </section>
+        <section id="form">
+            <h2>Newsletter Signup</h2>
+            <form id="newsletterForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Submit</button>
+            </form>
+            <p id="errorMessage" style="color: red;"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Profile</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
